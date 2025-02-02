@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 
+
 # Initialize Spark session
 spark = SparkSession.builder \
     .appName("siddiq_buc") \
